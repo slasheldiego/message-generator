@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 import messages.generator.aws.AWSSender;
+import messages.generator.interfaces.Sender;
 
 public class App {
 

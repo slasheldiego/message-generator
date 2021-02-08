@@ -13,36 +13,37 @@ import software.amazon.awssdk.services.sns.model.PublishResponse;
 import software.amazon.awssdk.services.sns.model.SnsException;
 import com.amazonaws.auth.InstanceProfileCredentialsProvider;
 
+import messages.generator.interfaces.Sender;
 import messages.generator.utils.Utils;
 
 
-public class AWSSender extends Thread{
+public class AWSSender extends Thread implements Sender{
 
     private Utils utils = new Utils();
     private String arn = "";
     private InstanceProfileCredentialsProvider credentials =
                 InstanceProfileCredentialsProvider.createAsyncRefreshingProvider(true);
-    private SnsClient snsClient;
 
     public AWSSender(int n){
         System.out.println("Este es la clase sender ...");
         this.LoadConfig();
         
-        this.snsClient = SnsClient.builder()
-                .region(Region.US_EAST_1)
-                .build();
-        
     }
 
     public void sendMessages(){
+
+        SnsClient snsClient = SnsClient.builder()
+        .region(Region.US_EAST_1)
+        .build();
+
         List<String> list = utils.list2JsonList(utils.generateEvents(5));
 
         for (String event: list){
-            pubTopic(this.snsClient,event,arn);
+            postEventSNS(snsClient,event,arn);
         }
     }
 
-    public static void pubTopic(SnsClient snsClient, String message, String topicArn) {
+    public void postEventSNS(SnsClient snsClient, String message, String topicArn) {
 
         try {
             PublishRequest request = PublishRequest.builder()

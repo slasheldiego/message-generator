@@ -11,8 +11,9 @@ import com.azure.core.amqp.AmqpTransportType;
 
 import messages.generator.entities.Event;
 import messages.generator.utils.Utils;
+import messages.generator.interfaces.Sender;
 
-public class AzureSender extends Thread {
+public class AzureSender extends Thread implements Sender{
 
     private Utils utils = new Utils();
     private String connectionString = "";
@@ -29,26 +30,29 @@ public class AzureSender extends Thread {
         return "Este es un mensaje de prueba ... " + connectionString;
     }
 
-    void sendBatchMessages() {
+    public void sendMessages() {
         // create a producer using the namespace connection string and event hub name
         EventHubProducerClient producer = new EventHubClientBuilder().transportType(AmqpTransportType.AMQP_WEB_SOCKETS)
                 .connectionString(connectionString, eventHubName).buildProducerClient();
 
+        List<String> list = utils.list2JsonList(utils.generateEvents(10));
+
+        postEventEHubBatch(producer, list);
+        
+    }
+
+    public void postEventEHubBatch(EventHubProducerClient producer, List<String> messages) {
         // prepare a batch of events to send to the event hub
         EventDataBatch batch = producer.createBatch();
 
-        List<String> list = utils.list2JsonList(utils.generateEvents(10));
-
-        for (String eventJson : list) {
+        for (String eventJson : messages) {
 
             batch.tryAdd(new EventData(eventJson));
 
         }
 
-        // send the batch of events to the event hub
         producer.send(batch);
-
-        System.out.println("Hilo " + n + ": send batch ...");
+    
         // close the producer
         producer.close();
     }
@@ -77,7 +81,7 @@ public class AzureSender extends Thread {
 
     public void run() {
         while (true) {
-            this.sendBatchMessages();
+            this.sendMessages();
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
