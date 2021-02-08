@@ -4,24 +4,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
-import java.util.Date;
 import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Random;
-import java.util.concurrent.ThreadLocalRandom;
-import java.util.UUID;
-
-import com.google.gson.JsonArray;
-import com.google.gson.JsonElement;
-import com.google.gson.JsonObject;
-import com.google.gson.JsonParser;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 import com.azure.messaging.eventhubs.*;
 import com.azure.core.amqp.AmqpTransportType;
-import static java.nio.charset.StandardCharsets.UTF_8;
 
 import messages.generator.entities.Event;
 import messages.generator.utils.Utils;

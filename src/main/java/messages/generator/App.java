@@ -6,13 +6,9 @@ package messages.generator;
 import java.util.List;
 import java.util.ArrayList;
 
-import messages.generator.azure.AzureSender;
 import messages.generator.aws.AWSSender;
 
 public class App {
-
-    private String connectionString;
-    private String eventHubName;
 
     public String getGreeting() {
         System.out.println(this.getClass().getResource("/config/config.properties"));
@@ -26,8 +22,16 @@ public class App {
         System.out.println(app.getGreeting());
         int num = 4;
 
-        AWSSender sender = new AWSSender(1);
-        sender.sendMessages();
+        List<AWSSender> senders = new ArrayList<>();
+
+        for (int i = 0; i < num; i++) {
+            AWSSender sender = new AWSSender(i + 1);
+            senders.add(sender);
+        }
+
+        for (int i = 0; i < num; i++) {
+            senders.get(i).start();
+        }
 
         /*List<AzureSender> senders = new ArrayList<>();
 
