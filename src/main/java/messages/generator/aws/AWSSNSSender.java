@@ -17,14 +17,14 @@ import messages.generator.interfaces.Sender;
 import messages.generator.utils.Utils;
 
 
-public class AWSSender extends Thread implements Sender{
+public class AWSSNSSender extends Thread implements Sender{
 
     private Utils utils = new Utils();
     private String arn = "";
     private InstanceProfileCredentialsProvider credentials =
                 InstanceProfileCredentialsProvider.createAsyncRefreshingProvider(true);
 
-    public AWSSender(int n){
+    public AWSSNSSender(int n){
         System.out.println("Este es la clase sender ...");
         this.LoadConfig();
         

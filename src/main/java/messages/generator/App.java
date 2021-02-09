@@ -6,8 +6,7 @@ package messages.generator;
 import java.util.List;
 import java.util.ArrayList;
 
-import messages.generator.aws.AWSSender;
-import messages.generator.interfaces.Sender;
+import messages.generator.aws.AWSSNSSender;
 
 public class App {
 
@@ -23,10 +22,10 @@ public class App {
         System.out.println(app.getGreeting());
         int num = 4;
 
-        List<AWSSender> senders = new ArrayList<>();
+        List<AWSSNSSender> senders = new ArrayList<>();
 
         for (int i = 0; i < num; i++) {
-            AWSSender sender = new AWSSender(i + 1);
+            AWSSNSSender sender = new AWSSNSSender(i + 1);
             senders.add(sender);
         }
 

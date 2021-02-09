@@ -13,14 +13,14 @@ import messages.generator.entities.Event;
 import messages.generator.utils.Utils;
 import messages.generator.interfaces.Sender;
 
-public class AzureSender extends Thread implements Sender{
+public class AzureEventHubSender extends Thread implements Sender{
 
     private Utils utils = new Utils();
     private String connectionString = "";
     private String eventHubName = "";
     private int n = -1;
 
-    public AzureSender(int n) {
+    public AzureEventHubSender(int n) {
         System.out.println("Este es la clase sender ...");
         this.LoadConfig();
         this.n = n;
