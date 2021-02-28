@@ -19,7 +19,7 @@ public class Utils{
 
     }
 
-    public List<Event> generateEvents(int lenght) {
+    public static List<Event> generateEvents(int lenght) {
         List<Event> events = new ArrayList<Event>();
 
         List<String> countries = new ArrayList<String>(Arrays.asList("Peru", "Colombia", "Chile", "Argentina"));

@@ -6,6 +6,7 @@ package messages.generator;
 import java.util.List;
 import java.util.ArrayList;
 
+import messages.generator.aws.AWSKinesisStream;
 import messages.generator.aws.AWSSNSSender;
 
 public class App {
@@ -22,7 +23,18 @@ public class App {
         System.out.println(app.getGreeting());
         int num = 4;
 
-        List<AWSSNSSender> senders = new ArrayList<>();
+        List<AWSKinesisStream> senders = new ArrayList<>();
+
+        for (int i = 0; i < num; i++) {
+            AWSKinesisStream sender = new AWSKinesisStream("us-east-1","MyCompanyStream",i+1);
+            senders.add(sender);
+        }
+
+        for (int i = 0; i < num; i++) {
+            senders.get(i).start();
+        }
+        
+        /*List<AWSSNSSender> senders = new ArrayList<>();
 
         for (int i = 0; i < num; i++) {
             AWSSNSSender sender = new AWSSNSSender(i + 1);
@@ -31,7 +43,7 @@ public class App {
 
         for (int i = 0; i < num; i++) {
             senders.get(i).start();
-        }
+        }*/
 
         /*List<AzureSender> senders = new ArrayList<>();
 

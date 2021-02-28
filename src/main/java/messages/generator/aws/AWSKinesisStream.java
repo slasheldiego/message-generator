@@ -3,8 +3,6 @@ package messages.generator.aws;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
-
-
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.regions.Region;
 
@@ -18,18 +16,19 @@ import software.amazon.awssdk.services.kinesis.KinesisAsyncClient;
 import software.amazon.kinesis.common.KinesisClientUtil;
 
 import messages.generator.entities.Event;
+import messages.generator.interfaces.Sender;
 import messages.generator.utils.Utils;
 
-public class AWSKinesisStream {
+public class AWSKinesisStream extends Thread implements Sender{
 
-    private static final String CONSUMER_ARN = "arn:aws:kinesis:us-east-2:639556434474:stream/belc-stream-records";
+    private static final String CONSUMER_ARN = "arn:aws:kinesis:us-east-1:640214160327:stream/MyCompanyStream";
 
     String streamName;
     String regionName;
 
     private static final Log LOG = LogFactory.getLog(AWSKinesisStream.class);
 
-    public AWSKinesisStream(String streamName, String regionName) {
+    public AWSKinesisStream(String streamName, String regionName, int num) {
         this.streamName = streamName;
         this.regionName = regionName;
     }
@@ -78,9 +77,9 @@ public class AWSKinesisStream {
 
     public void sendMessages() {
 
-        Region region = Region.of(regionName);
+        Region region = Region.of(this.regionName);
         if (region == null) {
-            System.err.println(regionName + " is not a valid AWS region.");
+            System.err.println(this.regionName + " is not a valid AWS region.");
             System.exit(1);
         }
 
@@ -88,7 +87,7 @@ public class AWSKinesisStream {
                 .createKinesisAsyncClient(KinesisAsyncClient.builder().region(region));
 
         // Validate that the stream exists and is active
-        validateStream(kinesisClient, streamName);
+        validateStream(kinesisClient, this.streamName);
 
         List<Event> events = Utils.generateEvents(1);
 
@@ -96,6 +95,15 @@ public class AWSKinesisStream {
         
     }
     
-    
+    public void run() {
+        while (true) {
+            this.sendMessages();
+            try {
+                Thread.sleep(5000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    }
     
 }
