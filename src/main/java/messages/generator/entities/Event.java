@@ -1,9 +1,19 @@
 
 package messages.generator.entities;
 
+import java.io.IOException;
 import java.util.Date;
 
+import com.fasterxml.jackson.databind.DeserializationFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class Event{
+
+    private final static ObjectMapper JSON = new ObjectMapper();
+    static {
+        JSON.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
+    }
+
     private Long id;
     private Date date;
     private int quantity;
@@ -82,5 +92,27 @@ public class Event{
 
     public String getDescription(){
         return this.description;
+    }
+
+    public byte[] toJsonAsBytes() {
+        try {
+            return JSON.writeValueAsBytes(this);
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+    public static Event fromJsonAsBytes(byte[] bytes) {
+        try {
+            return JSON.readValue(bytes, Event.class);
+        } catch (IOException e) {
+            return null;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return String.format("ID %d: %s %d %d %d",
+                id, date, quantity, unitPrice, customerId);
     }
 }

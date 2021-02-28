@@ -21,9 +21,9 @@ public class AzureEventHubSender extends Thread implements Sender{
     private int n = -1;
 
     public AzureEventHubSender(int n) {
-        System.out.println("Este es la clase sender ...");
         this.LoadConfig();
         this.n = n;
+        System.out.println("Este es la clase sender del hilo: " + this.n);
     }
 
     String message() {
