@@ -21,8 +21,6 @@ import messages.generator.utils.Utils;
 
 public class AWSKinesisStream extends Thread implements Sender{
 
-    private static final String CONSUMER_ARN = "arn:aws:kinesis:us-east-1:640214160327:stream/MyCompanyStream";
-
     String streamName;
     String regionName;
 
