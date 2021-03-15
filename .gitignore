@@ -4,8 +4,8 @@
 # Ignore Gradle build output directory
 build
 src/main/resources
-src/main/java/messages/generator/interfaces/IKafkaConstants.java
 bin
 .settings
 .gitignore
 notas-messages-generator.txt
+src/main/java/messages/generator/interfaces/IKafkaConstants.java

@@ -1,7 +1,7 @@
 package messages.generator.interfaces;
 
 public interface IKafkaConstants {
-    public static String KAFKA_BROKERS = "z-2.awskafkatutorialclust.zebdl3.c13.kafka.us-east-1.amazonaws.com:2181,z-3.awskafkatutorialclust.zebdl3.c13.kafka.us-east-1.amazonaws.com:2181,z-1.awskafkatutorialclust.zebdl3.c13.kafka.us-east-1.amazonaws.com:2181";
+    public static String KAFKA_BROKERS = "<your cluster brokers>";
 
     public static Integer MESSAGE_COUNT=1000;
 
