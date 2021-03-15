@@ -4,10 +4,18 @@
 package messages.generator;
 
 import java.util.List;
+import java.util.concurrent.ExecutionException;
+
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.RecordMetadata;
+
 import java.util.ArrayList;
 
 import messages.generator.aws.AWSKinesisStream;
 import messages.generator.aws.AWSSNSSender;
+import messages.generator.interfaces.IKafkaConstants;
+import messages.generator.kafka.ProducerCreator;
 
 public class App {
 
@@ -23,7 +31,9 @@ public class App {
         System.out.println(app.getGreeting());
         int num = 4;
 
-        List<AWSKinesisStream> senders = new ArrayList<>();
+        runProducer();
+
+        /*List<AWSKinesisStream> senders = new ArrayList<>();
 
         for (int i = 0; i < num; i++) {
             AWSKinesisStream sender = new AWSKinesisStream("us-east-1","MyCompanyStream",i+1);
@@ -32,7 +42,7 @@ public class App {
 
         for (int i = 0; i < num; i++) {
             senders.get(i).start();
-        }
+        }*/
         
         /*List<AWSSNSSender> senders = new ArrayList<>();
 
@@ -57,4 +67,24 @@ public class App {
         }*/
 
     }
+
+    static void runProducer() {
+		Producer<Long, String> producer = ProducerCreator.createProducer();
+
+		for (int index = 0; index < IKafkaConstants.MESSAGE_COUNT; index++) {
+			final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
+					"This is record " + index);
+			try {
+				RecordMetadata metadata = producer.send(record).get();
+				System.out.println("Record sent with key " + index + " to partition " + metadata.partition()
+						+ " with offset " + metadata.offset());
+			} catch (ExecutionException e) {
+				System.out.println("Error in sending record");
+				System.out.println(e);
+			} catch (InterruptedException e) {
+				System.out.println("Error in sending record");
+				System.out.println(e);
+			}
+		}
+	}
 }
