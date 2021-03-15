@@ -28,13 +28,11 @@ dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     implementation 'com.azure:azure-messaging-eventhubs:5.3.1'
     implementation 'com.google.code.gson:gson:2.2.2'
-    implementation 'com.fasterxml.jackson.core:jackson-databind:2.10.0.pr2'
     implementation 'software.amazon.awssdk:sns:2.15.77'
     implementation 'software.amazon.awssdk:regions:2.15.77'
     implementation 'software.amazon.awssdk:auth:2.15.77'
     implementation 'com.amazonaws:aws-java-sdk-sns:1.11.950'
-    implementation 'software.amazon.awssdk:kinesis:2.15.77'
-    implementation 'software.amazon.kinesis:amazon-kinesis-client:2.3.0'
+    implementation 'software.amazon.kinesis:amazon-kinesis-client:2.2.9'
     // Use JUnit test framework
     testImplementation 'junit:junit:4.13'
 }
