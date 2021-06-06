@@ -31,7 +31,7 @@ public class App {
         System.out.println(app.getGreeting());
         int num = 4;
 
-        runProducer();
+        //runProducer();
 
         /*List<AWSKinesisStream> senders = new ArrayList<>();
 
