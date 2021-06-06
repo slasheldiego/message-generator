@@ -66,6 +66,12 @@ public class App {
             senders.get(i).start();
         }*/
 
+        int i = 1;
+        while (true){
+            System.out.println("Dummy test: " + i);
+            i++;
+        }
+
     }
 
     static void runProducer() {
