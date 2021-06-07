@@ -16,6 +16,11 @@ import messages.generator.aws.AWSKinesisStream;
 import messages.generator.aws.AWSSNSSender;
 import messages.generator.interfaces.IKafkaConstants;
 import messages.generator.kafka.ProducerCreator;
+import scala.util.control.Exception;
+
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
 
 public class App {
 
@@ -25,7 +30,7 @@ public class App {
         return "Hello world.";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
 
         App app = new App();
         System.out.println(app.getGreeting());
@@ -68,8 +73,18 @@ public class App {
 
         int i = 1;
         while (true){
-            System.out.println("Dummy test: " + i);
-            i++;
+            try{
+                FileWriter write = new FileWriter("test.txt", true);
+                PrintWriter print_write = new PrintWriter(write);
+
+                print_write.printf("Dummy test: " + i + "\n");
+                //System.out.println("Dummy test: " + i);
+                i++;
+                print_write.close();
+                Thread.sleep(5000);
+            } catch(IOException e){
+                System.out.println(e);
+            }
         }
 
     }
