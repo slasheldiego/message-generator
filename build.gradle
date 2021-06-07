@@ -45,3 +45,8 @@ application {
     mainClassName = 'messages.generator.App'
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'messages.generator.App'
+    }
+}
