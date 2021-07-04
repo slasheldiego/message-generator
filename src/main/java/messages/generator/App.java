@@ -71,7 +71,7 @@ public class App {
             senders.get(i).start();
         }*/
 
-        int i = 1;
+        /*int i = 1;
         while (true){
             try{
                 FileWriter write = new FileWriter("test.txt", true);
@@ -85,7 +85,9 @@ public class App {
             } catch(IOException e){
                 System.out.println(e);
             }
-        }
+        }*/
+        System.out.println("Iniciamos envio de eventos a Kafka ...");
+        runProducer();
 
     }
 
