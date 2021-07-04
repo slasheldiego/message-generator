@@ -8,4 +8,3 @@ bin
 .settings
 .gitignore
 notas-messages-generator.txt
-src/main/java/messages/generator/interfaces/IKafkaConstants.java
