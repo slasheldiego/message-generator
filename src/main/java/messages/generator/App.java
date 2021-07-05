@@ -102,10 +102,10 @@ public class App {
 
         for(Event event: events){
             final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
-            event.getId() + "|" + event.getCountry() + "|" + event..getDate());
+            event.getId() + "|" + event.getCountry() + "|" + event.getDate());
             try {
                 RecordMetadata metadata = producer.send(record).get();
-                System.out.println("Record sent with key " + event.getId() + "|" + event.getCountry() + "|" + event..getDate() + " to partition " + metadata.partition()
+                System.out.println("Record sent with key " + event.getId() + "|" + event.getCountry() + "|" + event.getDate() + " to partition " + metadata.partition()
                         + " with offset " + metadata.offset());
             } catch (ExecutionException e) {
                 System.out.println("Error in sending record");
