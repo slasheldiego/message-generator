@@ -1,0 +1,1258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module relativePaths="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output/>
+    <orderEntry type="inheritedJdk"/>
+    <content url="file://$MODULE_DIR$/">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource"/>
+      <excludeFolder url="file://$MODULE_DIR$/.gradle"/>
+      <excludeFolder url="file://$MODULE_DIR$/build"/>
+    </content>
+    <orderEntry type="sourceFolder" forTests="false"/>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.kinesis/amazon-kinesis-client/2.2.9/da8b162cf62c2a752db22ba55ff1934cc3b7a6b5/amazon-kinesis-client-2.2.9.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.kinesis/amazon-kinesis-client/2.2.9/e489ce03176a8de6b56d0156dd41839700226330/amazon-kinesis-client-2.2.9-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/29.0-jre/801142b4c3d0f0770dd29abea50906cacfddd447/guava-29.0-jre.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/29.0-jre/33e6868bc0fcb9b4b493123eeec78d1352934e87/guava-29.0-jre-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-messaging-eventhubs/5.3.1/c7a9f3a2e380d78274ccf4a989d85467dd8d4ca6/azure-messaging-eventhubs-5.3.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-messaging-eventhubs/5.3.1/f46b0b354e2b68e51bd380ac545994feed58af22/azure-messaging-eventhubs-5.3.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.2/1f96456ca233dec780aa224bff076d8e8bca3908/gson-2.2.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.2/2841612c7a99a9ff1f7f570a2ddaa8665928a1e6/gson-2.2.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/sns/2.15.77/db77aa8053bde95e9fda5415671e3a35e7cf168d/sns-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/sns/2.15.77/378d3b9663364e1e87d0626d8e4a35ff7a454a69/sns-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/cloudwatch/2.10.66/3b11738e595aeed451886ef39aa99ca6681def64/cloudwatch-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/cloudwatch/2.10.66/9a0e441b98e3f1b2172182f4097caa68c00b23cd/cloudwatch-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-query-protocol/2.15.77/1e44f2c2827677cd7245fde9544428d8d6748b86/aws-query-protocol-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-query-protocol/2.15.77/731c6254d58e98f7c6dc9643f3c3b26f13fb5611/aws-query-protocol-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/kinesis/2.10.66/a904e138e00f080c58e323f2f35772cf8d70af25/kinesis-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/kinesis/2.10.66/fea65d518935bf36f558c666b0a129e38c27bb09/kinesis-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/dynamodb/2.10.66/a7d74f252fa5f3e8cdc98e8313b4af26b81a4c5c/dynamodb-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/dynamodb/2.10.66/3b2c54389375cbb129b4bc267dc08a822575b1d7/dynamodb-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-cbor-protocol/2.10.66/9ac1c51456f3026a9d1c1b3f20419eb86527988d/aws-cbor-protocol-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-cbor-protocol/2.10.66/509a0e56074e6fcf6673607bc044691b1bbcab34/aws-cbor-protocol-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-json-protocol/2.10.66/615c9a55ca3d89bbbe62be52cb61d54a9633d42e/aws-json-protocol-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-json-protocol/2.10.66/3c9f275df6235e2b1170f8dc66d331d69d13f4cc/aws-json-protocol-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-core/2.15.77/75d368a9553267d635a2e16b1b3e1d0524450337/aws-core-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/aws-core/2.15.77/71eaf23c48f91e1e98b9d764e8781bd0008f9206/aws-core-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/auth/2.15.77/db28f90a7c275b3fd31b12f1dfa36e7328fb2e52/auth-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/auth/2.15.77/79052f0ad0f0a98726fa2566b3b56efa188b3877/auth-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/regions/2.15.77/a795187a720f9871628cde927fbf243f0467f9d6/regions-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/regions/2.15.77/7ee9c1ea34461f5ad545e681c05b201bda88012a/regions-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.11.950/ec55fcbf2f24ca56470d24d913387e3495c7d39a/aws-java-sdk-sns-1.11.950.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sns/1.11.950/a02f1ccc51a0fca1cf9a13622b580896255bfe80/aws-java-sdk-sns-1.11.950-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.12/2.2.1/e7beb9f2cee051fe19b2788ba1cded9f58204e98/kafka_2.12-2.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka_2.12/2.2.1/65e37242823bb1bfd5eefa7a09a0674c682a7e67/kafka_2.12-2.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/2.2.1/3a9480801401f5eafdfeefad6d65493a7c5a7b6d/kafka-clients-2.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-clients/2.2.1/59902a774ef54815b49f2ba5f2e21a7bb44f1b80/kafka-clients-2.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES/>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.11.1/8c43bf8f99b841d23aadda6044329dad9b63c185/checker-qual-2.11.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.11.1/81dbb91c8dc3c53ae7066ce9e70ed7efb0551261/checker-qual-2.11.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/950adf6dcd7361e3d1e544a6e13b818587f95d14/error_prone_annotations-2.3.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-core-amqp/1.6.0/9efa6146d2ab26457218571bd7f60f95102aa4fa/azure-core-amqp-1.6.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-core-amqp/1.6.0/b1ed75957cffd66e50f1498c83f4e4834cf25d02/azure-core-amqp-1.6.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-core/1.9.0/4c7964ebcc6c6f5f1295da4cd6916376cb0779b5/azure-core-1.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.azure/azure-core/1.9.0/4a8ea2f2a828b938a4ee9551e0e58e0351a85a41/azure-core-1.9.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/protocol-core/2.15.77/2ac7fa7724625ea7d34a073e177b1dc641c6497a/protocol-core-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/protocol-core/2.15.77/f17d2c1bc6f2e1d1d98db67999edc267d651a3ee/protocol-core-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/sdk-core/2.15.77/ef6b2af1aa88cd38bff07ab047a0e6a78c14dd14/sdk-core-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/sdk-core/2.15.77/ee63076fd3423e1d1bb455b20b1daae4e4ed5e61/sdk-core-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.10.66/fbd33ff35c240a0af410ee4a6ad31051d1823c27/netty-nio-client-2.10.66.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.10.66/d29fdee6bf3db73ec46ed10df0bb05ff7558fb17/netty-nio-client-2.10.66-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-client-spi/2.15.77/dd0d766e035531b2795b631ed0108736df2635bf/http-client-spi-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/http-client-spi/2.15.77/bb55b025e92e2d8fec56132b86d10d1c5938fe29/http-client-spi-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/metrics-spi/2.15.77/27134828bce5c9ae27f0bf81c8ea4074bb47fd88/metrics-spi-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/metrics-spi/2.15.77/483ea7a66a270085950d2fddde6b7f56dba953ef/metrics-spi-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/profiles/2.15.77/bdb96912befb832ee2cdc8e4b2a2b2f66b228503/profiles-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/profiles/2.15.77/e2ba272ab1d2188d7578cee1ed7289f7f38ef2f7/profiles-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/utils/2.15.77/2f8d5c0b22d5f3e09da5776f0e7b03e4dba7b873/utils-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/utils/2.15.77/a8e37284a2beab34299def2ad85680019ef17ea6/utils-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/annotations/2.15.77/f55f791254303894c7e3853da9f622e00d6d726a/annotations-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/annotations/2.15.77/145a163518e0f374e670a53022465da0b219bc60/annotations-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.11.950/e6f6ca91efa95e11a8535a8408bdad895de96ed2/aws-java-sdk-sqs-1.11.950.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-sqs/1.11.950/8b3d77af72b83ae651cbbe05cd7d81232248f4ca/aws-java-sdk-sqs-1.11.950-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.950/13fd39e04c280f90eb5f811e7f0929ed1142899d/aws-java-sdk-core-1.11.950.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-java-sdk-core/1.11.950/45a2dacc411b9d04ab7c33262b7050eafe61db93/aws-java-sdk-core-1.11.950-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.11.950/31d866a33941aeb4fc69840169b6a5f7fe4c97d8/jmespath-java-1.11.950.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.amazonaws/jmespath-java/1.11.950/46f8cdb5f3f1cd3b77a6fc8b97c01f61389d3874/jmespath-java-1.11.950-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.8/bcd02aa9195390e23747ed40bf76be869ad3a2fb/jackson-datatype-jdk8-2.9.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.9.8/d82c445cc6e5745e7d6eb94b14ca5c2c895369d2/jackson-datatype-jdk8-2.9.8-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.11.2/e6235e5eb3cf3edd2a95cd0dc96bc48aeb309e8a/jackson-datatype-jsr310-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.11.2/f875f6b480580c65b761d02963efc5d372a618ee/jackson-datatype-jsr310-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.11.2/5e6166949f917eebfb2756fff0a8358e09d67516/jackson-dataformat-xml-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-xml/2.11.2/d39b682a00b2be849595474a3c900c4b6e031bef/jackson-dataformat-xml-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.11.2/8f3be3a394bb8511a0460794a98dcd0d64989e5d/jackson-module-jaxb-annotations-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-jaxb-annotations/2.11.2/1e3e75a8e4a103b2e6d43d5b5174ea1de6802bc8/jackson-module-jaxb-annotations-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.2/ee08bbd8975dde844307fe8309dfcd5ec7ee129d/jackson-databind-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.11.2/4f0c6c172892b0fb6b7f09a54cc616b9f9516bca/jackson-databind-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.2/e0a7f61fce3e3eac38a079c11831868269de2ea/jackson-annotations-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.11.2/128e08218b68149f37f56b209fc8ccc5b5321142/jackson-annotations-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.yammer.metrics/metrics-core/2.2.0/f82c035cfa786d3cbec362c38c22a5f5b1bc8724/metrics-core-2.2.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.yammer.metrics/metrics-core/2.2.0/6bdc9ec38b662632d7597d6f22942fb2dd2f5c4d/metrics-core-2.2.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.12/3.9.0/b6c6bb584f3e5c2d3f20aa7c8ff3e6959870b13c/scala-logging_2.12-3.9.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.scala-logging/scala-logging_2.12/3.9.0/91387647fa19f1db2adf8c3aee8a3c0dee5d7aa7/scala-logging_2.12-3.9.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.101tec/zkclient/0.11/eac41195bbbd8af968e43a71bc774c31984da31e/zkclient-0.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.101tec/zkclient/0.11/46c7fe340895b13843941c3f27d642f4715eccd4/zkclient-0.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.4.13/31e9937541cef95c4585b547eb2dbd34d3a76f1c/zookeeper-3.4.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.zookeeper/zookeeper/3.4.13/67e6d40e8e07052452fff40076d489ee6f5e17c3/zookeeper-3.4.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/qpid-proton-j-extensions/1.2.3/748b2bdfcb17dfb7633a75ea1bf8dd33cb9cfe4a/qpid-proton-j-extensions-1.2.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.microsoft.azure/qpid-proton-j-extensions/1.2.3/33d713257e479b9dfc1350ceb3fa1ce41f8eae5f/qpid-proton-j-extensions-1.2.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/71a1fdefa224da50f1db6306ce609981e20186c9/slf4j-api-1.7.30-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.eventstream/eventstream/1.0.1/6ff8649dffc5190366ada897ba8525a836297784/eventstream-1.0.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.eventstream/eventstream/1.0.1/7121512c9d99c6b4c6e7a6a858bb05cb2643d6b3/eventstream-1.0.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.6.1/d9521f2aecb909835746b7a5facf612af5e890e8/protobuf-java-2.6.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.6.1/cf47bfc6a10f85d14bc4c078a48d163b5903a291/protobuf-java-2.6.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/6505a72a097d9270f7a9e7bf42c4238283247755/commons-lang3-3.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.8.1/e9748d7783594da3735ad9724390a10e7cebc01d/commons-lang3-3.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.14/20dbf7496e417da474eda12717bf4653dbbd5a6b/rxjava-2.1.14.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.14/1d852092fc0e7711e2f47dd3b6a061e6479310f5/rxjava-2.1.14-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/4fdac2fbe92dfad86aa6e9301736f6b4342a3f5c/jopt-simple-5.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.4/950831646d014c9162999019a3cb17d5fc01ac0d/jopt-simple-5.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.8/682d33402cdae50258afa2c0860eb54688dab610/scala-reflect-2.12.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.12.8/2b4a5bbdc19f8ab34d474f30dbca957addc8ae09/scala-reflect-2.12.8-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/36b234834d8f842cdde963c8591efae6cf413e3f/scala-library-2.12.8.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.12.8/45ccb865e040cbef5d5620571527831441392f24/scala-library-2.12.8-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.3.8-1/455bd7c5a8a68b1aebcace632b6ebcb4fd92d32a/zstd-jni-1.3.8-1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.github.luben/zstd-jni/1.3.8-1/760e39e10cbd12f47239ad6f6d6bc7c2a39a3d9c/zstd-jni-1.3.8-1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.5.0/d36fb639f06aaa4f17307625f80e2e32f815672a/lz4-java-1.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.lz4/lz4-java/1.5.0/e38079cc05d15f0f023f58495b1f1d4533bedf8d/lz4-java-1.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.7.2/307b286efd119ad2c6d4291128bf110bddc68088/snappy-java-1.1.7.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.xerial.snappy/snappy-java/1.1.7.2/73b98fff2c1dcd337dbdac7182bf747b5aee2873/snappy-java-1.1.7.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.9.RELEASE/cce63b50019828d5af606b6634c8d6b24987b0a3/reactor-core-3.3.9.RELEASE.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.projectreactor/reactor-core/3.3.9.RELEASE/6a7e7cc7d9cfc5c127c147555e3adbfc00dd46fc/reactor-core-3.3.9.RELEASE-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.31.Final/248df9a7899b2f5d298a8ba18f56c887c04e2011/netty-tcnative-boringssl-static-2.0.31.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-tcnative-boringssl-static/2.0.31.Final/8bdae53f26e82e43e41d663f1b883eb137c3019b/netty-tcnative-boringssl-static-2.0.31.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.qpid/proton-j/0.33.4/ae78c5552b1ed6549fc5b51f9739e8dbd921ffc3/proton-j-0.33.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.qpid/proton-j/0.33.4/3369afabbee51f15eb686d9ad3866e91a0ea633b/proton-j-0.33.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.10.0/2027a2529ad0c03bbb6ef26797ef14dbd550c074/jackson-dataformat-cbor-2.10.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.10.0/e538b68e64f0f5ddf3656abeed7c6749ef410ebf/jackson-dataformat-cbor-2.10.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.2/bc022ab0f0c83c07f9c52c5ab9a6a4932b15cc35/jackson-core-2.11.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.11.2/f08c2af3b8715d9ace84dc111170cb1e28e104ef/jackson-core-2.11.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams-http/2.0.4/5f4d3ea06767bcd54159e4ce901565dd974bdc8a/netty-reactive-streams-http-2.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams-http/2.0.4/17d69f387fb5e314aaf1fe4734ec805aa502d32/netty-reactive-streams-http-2.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/2.0.4/f77c8eaa7d5e2f2160b6d21ba385cf726f164b2/netty-reactive-streams-2.0.4.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.typesafe.netty/netty-reactive-streams/2.0.4/dea768fe806e1352d7b3c05fa94b6391f7468238/netty-reactive-streams-2.0.4-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/e6ffdff8c438d959376c91d94b319457354a84c5/reactive-streams-1.0.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/e5f6cae5ca7ecaac1ec2827a9e2d65ae2869cada/httpclient-4.5.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.13/9654e91a61d7662c36be6710ef8e720c0e3f9807/httpclient-4.5.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/ee9dacea7726e495f8352b81c12c23834ffbc564/ion-java-1.0.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.ion/ion-java/1.0.2/3077203a7e79dd126a480da0491ec60238bbb872/ion-java-1.0.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.1/f5bfc718c95a7b1d3c371bb02a188a4df18361a9/joda-time-2.8.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.1/bf0996237b66ce00cd3132af179612df02ff9771/joda-time-2.8.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.42.Final/819e7b5f2005770cf7558c04276fff080331c6df/netty-codec-http2-4.1.42.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.42.Final/cbb74adf5356c39644695d1c082cdfaa5befa55d/netty-codec-http2-4.1.42.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.43.Final/7320f9db621dc51b79807a4e5094665f260432c/netty-codec-http-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.43.Final/9caa0532c8f333f791f2c71e3fec2ecee195739a/netty-codec-http-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.43.Final/f83ac0492d44057d07ec6d40cf79e8e2de949836/netty-handler-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.43.Final/ca56d32847fb3618df7c79cbc84d136274ce4a58/netty-handler-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.43.Final/44731a5739c40a8434c43e1303e9196f23da67fa/netty-codec-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.43.Final/5e4e33d1bb9d87d7a05574cfdf70feaf5c0ff838/netty-codec-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.42.Final/d8dbcd33944fe1918b536952abbcf33f9ebf2f4/netty-transport-native-epoll-4.1.42.Final-linux-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.42.Final/7c3265a269172bfa759e8059abb45a02a6c5f885/netty-transport-native-epoll-4.1.42.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.42.Final/344ff6fc05315233f0db5d86f94e8a3b5799b995/netty-transport-native-unix-common-4.1.42.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.42.Final/8608fa85689edbe80f86abf2d58bc60ebde579df/netty-transport-native-unix-common-4.1.42.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.43.Final/781cd7cfc1118bdfe1538f39cc1f4d07d6254094/netty-transport-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.43.Final/eaafd4c88502a699d9fadf4ddd11a88e266dcf99/netty-transport-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.43.Final/c0d142260a32709523e3bcf0d015b193f2ff2df4/netty-buffer-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.43.Final/4c5cb0a68413d5602d3dd135a7c1090dc36f8292/netty-buffer-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.43.Final/94ae5a7e595fdc29dac254014e3159d3572d7e44/netty-resolver-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.43.Final/1d6c79494160a63ef7d7d26d17904b0ae3310ec6/netty-resolver-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.43.Final/ccb6f627ded1bb2671a66a84506174d240c7bec8/netty-common-4.1.43.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.43.Final/7b0e8488dd99de7808b3dfac2b8b13567a6db386/netty-common-4.1.43.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.yetus/audience-annotations/0.5.0/55762d3191a8d6610ef46d11e8cb70c7667342a3/audience-annotations-0.5.0.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.yetus/audience-annotations/0.5.0/51aa3138d72781ef879e9cb660daab3ac7c52c60/audience-annotations-0.5.0-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.2.1/1600925b1ec7c7a3403c8f068ad62feead13132f/woodstox-core-6.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/com.fasterxml.woodstox/woodstox-core/6.2.1/e81f9fbf9112e4a420eb35cf875fe067386cb7bb/woodstox-core-6.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.1/a3f7325c52240418c2ba257b103c3c550e140c83/stax2-api-4.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.codehaus.woodstox/stax2-api/4.2.1/8d0d447792449c247f739781838cd620687074b/stax2-api-4.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/853b96d3afbb7bf8cc303fe27ee96836a10c1834/httpcore-4.4.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.13/d6e6365dac44108fb2cc0684daea0d40bc6609f5/httpcore-4.4.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8d49996a4338670764d7ca4b85a1c4ccf7fe665d/jakarta.xml.bind-api-2.3.2.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/2.3.2/8f7b9baa75556d2c03371c7e4b45b484683c7d28/jakarta.xml.bind-api-2.3.2-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/562a587face36ec7eff2db7f2fc95425c6602bc1/jakarta.activation-api-1.2.1.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/1.2.1/6fe481428613e57af220e17b9ebf3475fb27efb8/jakarta.activation-api-1.2.1-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/apache-client/2.15.77/1d97374088795a8e0ede76e63ad93b21a65b24a/apache-client-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/apache-client/2.15.77/ed54e2fbc9567173dfce76a1f4e3f1ab309c9937/apache-client-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.15.77/b32b3b5bc0ae2f58d27d3d0a14761fb56465e475/netty-nio-client-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.15.77/912b6d16be3bbeea4533d0be8347737deafc9070/netty-nio-client-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.53.Final/97612c9c5b07cd7c7822542fa373b3263ccb8da0/netty-codec-http2-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.53.Final/24324fb93d176667253c31c1014cbc7a780d823c/netty-codec-http2-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.53.Final/9f62cacb250ec65bdb368a178d2453535c365947/netty-codec-http-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.53.Final/bbd7946f54af514395232f581370dc45615f42be/netty-codec-http-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.53.Final/106846090e4bab23537d52da281616a001611e0c/netty-handler-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.53.Final/dad99a31b0b69140841bbacc6682e8e3b518748f/netty-handler-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.53.Final/47aca7eb6f3a4ea623195906dd9caf3a1863e187/netty-codec-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.53.Final/42fe9f82d4f55359caec7c4519de3a80d3b824fd/netty-codec-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.53.Final/44f7dd0f300c40ee1ea6ac275cfadb1d2be09b4f/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.53.Final/f926f79100474153899bf491fed6ddac876d3327/netty-transport-native-epoll-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.53.Final/6f02f15189540ebcf74d032e74be00f4c2f6e5de/netty-transport-native-unix-common-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.53.Final/c304be1a4e42e5f022397d3fc5d88b988a108a74/netty-transport-native-unix-common-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.53.Final/856f737f7c512f2e2b970df254f15fc558e991c/netty-transport-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.53.Final/b5b81e6658ca64716d6e045357344c5020b0712f/netty-transport-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.53.Final/a28d2694ff1bc95c627108b01949de3697b4c232/netty-buffer-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.53.Final/3e2c3da92406a8c4fc01867242298b9790e78f85/netty-buffer-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.53.Final/fe243ee1fddf47e3d54ec83d9f42ef35bcb5ac3e/netty-resolver-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.53.Final/567c6cd4613f1d674b9cfe80f515db9eb782145f/netty-resolver-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="RUNTIME">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.53.Final/f5aac2cd268483ded1f76dacc5c9eb27899dee72/netty-common-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.53.Final/acbd370cd15b0fd369f9e352e92991d5b4562103/netty-common-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/d10a9c3acc6c07a5700e37697b5a6b4dcfb8abf9/junit-4.13-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/apache-client/2.15.77/1d97374088795a8e0ede76e63ad93b21a65b24a/apache-client-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/apache-client/2.15.77/ed54e2fbc9567173dfce76a1f4e3f1ab309c9937/apache-client-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.15.77/b32b3b5bc0ae2f58d27d3d0a14761fb56465e475/netty-nio-client-2.15.77.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/software.amazon.awssdk/netty-nio-client/2.15.77/912b6d16be3bbeea4533d0be8347737deafc9070/netty-nio-client-2.15.77-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.53.Final/97612c9c5b07cd7c7822542fa373b3263ccb8da0/netty-codec-http2-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.53.Final/24324fb93d176667253c31c1014cbc7a780d823c/netty-codec-http2-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.53.Final/9f62cacb250ec65bdb368a178d2453535c365947/netty-codec-http-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.53.Final/bbd7946f54af514395232f581370dc45615f42be/netty-codec-http-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.53.Final/106846090e4bab23537d52da281616a001611e0c/netty-handler-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.53.Final/dad99a31b0b69140841bbacc6682e8e3b518748f/netty-handler-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.53.Final/47aca7eb6f3a4ea623195906dd9caf3a1863e187/netty-codec-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.53.Final/42fe9f82d4f55359caec7c4519de3a80d3b824fd/netty-codec-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.53.Final/44f7dd0f300c40ee1ea6ac275cfadb1d2be09b4f/netty-transport-native-epoll-4.1.53.Final-linux-x86_64.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.53.Final/f926f79100474153899bf491fed6ddac876d3327/netty-transport-native-epoll-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.53.Final/6f02f15189540ebcf74d032e74be00f4c2f6e5de/netty-transport-native-unix-common-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.53.Final/c304be1a4e42e5f022397d3fc5d88b988a108a74/netty-transport-native-unix-common-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.53.Final/856f737f7c512f2e2b970df254f15fc558e991c/netty-transport-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.53.Final/b5b81e6658ca64716d6e045357344c5020b0712f/netty-transport-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.53.Final/a28d2694ff1bc95c627108b01949de3697b4c232/netty-buffer-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.53.Final/3e2c3da92406a8c4fc01867242298b9790e78f85/netty-buffer-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.53.Final/fe243ee1fddf47e3d54ec83d9f42ef35bcb5ac3e/netty-resolver-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.53.Final/567c6cd4613f1d674b9cfe80f515db9eb782145f/netty-resolver-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library>
+        <CLASSES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.53.Final/f5aac2cd268483ded1f76dacc5c9eb27899dee72/netty-common-4.1.53.Final.jar!/"/>
+        </CLASSES>
+        <JAVADOC/>
+        <SOURCES>
+          <root url="jar:///Users/diegobenavides/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.53.Final/acbd370cd15b0fd369f9e352e92991d5b4562103/netty-common-4.1.53.Final-sources.jar!/"/>
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+  <component name="ModuleRootManager"/>
+</module>

@@ -14,6 +14,8 @@ plugins {
     id 'application'
 
     id 'base'
+
+    id 'idea'
 }
 
 
@@ -26,6 +28,10 @@ repositories {
 
 dependencies {
     // This dependency is used by the application.
+    
+    // Use JUnit test framework
+    testImplementation 'junit:junit:4.13'
+
     implementation 'com.google.guava:guava:29.0-jre'
     implementation 'com.azure:azure-messaging-eventhubs:5.3.1'
     implementation 'com.google.code.gson:gson:2.2.2'
@@ -36,17 +42,30 @@ dependencies {
     implementation 'software.amazon.kinesis:amazon-kinesis-client:2.2.9'
     implementation 'org.apache.kafka:kafka_2.12:2.2.1'
     implementation 'org.apache.kafka:kafka-clients:2.2.1'
-    // Use JUnit test framework
-    testImplementation 'junit:junit:4.13'
 }
+
+mainClassName = 'messages.generator.App'
 
 application {
     // Define the main class for the application.
     mainClassName = 'messages.generator.App'
 }
 
-jar {
-    manifest {
-        attributes 'Main-Class': 'messages.generator.App'
+version = '1.0'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+task fatJar(type: Jar) {
+	manifest {
+        attributes 'Implementation-Title': 'Gradle Jar File Example',
+        	'Implementation-Version': version,
+        	"Main-Class": "$mainClassName"
     }
+    configurations.implementation.setCanBeResolved(true)
+    baseName = project.name + '-all'
+    from { configurations.implementation.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+    exclude "META-INF/*.SF"
+    exclude "META-INF/*.DSA"
+    exclude "META-INF/*.RSA"
 }
