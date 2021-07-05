@@ -21,5 +21,5 @@ public interface IKafkaConstants {
 
     public static String SECURITY_PROTOCOL_CONFIG="SSL";
 
-    public static String SSL_TRUSTSTORE_LOCATION_CONFIG = "/tmp/kafka.client.truststore.jks";
+    public static String SSL_TRUSTSTORE_LOCATION_CONFIG = "../kafka.client.truststore.jks";
 }
