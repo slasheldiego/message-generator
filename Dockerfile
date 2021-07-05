@@ -5,6 +5,7 @@ RUN echo 'Diego'
 RUN yum repolist all
 RUN yum update -y && yum install vim -y && yum install git -y && yum install wget -y && yum install unzip -y
 COPY ./jdk-8u291-linux-x64.rpm /utils/jdk-8u291-linux-x64.rpm
+COPY ./kafka.client.truststore.jks .
 RUN rpm -ivh /utils/jdk-8u291-linux-x64.rpm
 RUN java -version
 RUN wget https://downloads.gradle-dn.com/distributions/gradle-6.3-bin.zip

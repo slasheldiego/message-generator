@@ -22,7 +22,7 @@ public class Utils{
     public static List<Event> generateEvents(int lenght) {
         List<Event> events = new ArrayList<Event>();
 
-        List<String> countries = new ArrayList<String>(Arrays.asList("Peru", "Colombia", "Chile", "Argentina"));
+        List<String> countries = new ArrayList<String>(Arrays.asList("PE", "CO", "CL", "AR"));
         List<String> descriptions = new ArrayList<String>(Arrays.asList("Tech", "Food", "House", "Clothes"));
 
         for (int i = 0; i < lenght; i++) {

@@ -22,6 +22,9 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.io.IOException;
 
+import messages.generator.entities.Event;
+import messages.generator.utils.Utils;
+
 public class App {
 
     public String getGreeting() {
@@ -93,8 +96,27 @@ public class App {
 
     static void runProducer() {
 		Producer<Long, String> producer = ProducerCreator.createProducer();
+        Utils utils = new Utils();
 
-		for (int index = 0; index < IKafkaConstants.MESSAGE_COUNT; index++) {
+        List<Event> events = utils.generateEvents(10);
+
+        for(Event event: events){
+            final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
+            event.getId() + "|" + event.getCountry() + "|" + event..getDate());
+            try {
+                RecordMetadata metadata = producer.send(record).get();
+                System.out.println("Record sent with key " + event.getId() + "|" + event.getCountry() + "|" + event..getDate() + " to partition " + metadata.partition()
+                        + " with offset " + metadata.offset());
+            } catch (ExecutionException e) {
+                System.out.println("Error in sending record");
+                System.out.println(e);
+            } catch (InterruptedException e) {
+                System.out.println("Error in sending record");
+                System.out.println(e);
+            } 
+        }
+
+		/*for (int index = 0; index < IKafkaConstants.MESSAGE_COUNT; index++) {
 			final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
 					"This is record " + index);
 			try {
@@ -108,6 +130,6 @@ public class App {
 				System.out.println("Error in sending record");
 				System.out.println(e);
 			}
-		}
+		}*/
 	}
 }
