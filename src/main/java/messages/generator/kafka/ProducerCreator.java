@@ -24,4 +24,6 @@ public class ProducerCreator {
         props.put(SslConfigs.SSL_TRUSTSTORE_LOCATION_CONFIG, IKafkaConstants.SSL_TRUSTSTORE_LOCATION_CONFIG);
         return new KafkaProducer<>(props);
     }
+
+    
 }
