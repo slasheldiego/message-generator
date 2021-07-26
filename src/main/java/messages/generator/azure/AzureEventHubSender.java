@@ -14,8 +14,7 @@ import messages.generator.utils.Utils;
 import messages.generator.interfaces.Sender;
 
 public class AzureEventHubSender extends Thread implements Sender{
-
-    private Utils utils = new Utils();
+    
     private String connectionString = "";
     private String eventHubName = "";
     private int n = -1;
@@ -35,7 +34,7 @@ public class AzureEventHubSender extends Thread implements Sender{
         EventHubProducerClient producer = new EventHubClientBuilder().transportType(AmqpTransportType.AMQP_WEB_SOCKETS)
                 .connectionString(connectionString, eventHubName).buildProducerClient();
 
-        List<String> list = utils.list2JsonList(utils.generateEvents(10));
+        List<String> list = Utils.generateEvents(10);
 
         postEventEHubBatch(producer, list);
         

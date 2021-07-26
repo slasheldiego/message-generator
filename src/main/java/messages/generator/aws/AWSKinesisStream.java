@@ -1,7 +1,10 @@
 package messages.generator.aws;
 
+import org.apache.commons.cli.*;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
+
+import com.google.gson.Gson;
 
 import software.amazon.awssdk.core.SdkBytes;
 import software.amazon.awssdk.regions.Region;
@@ -47,8 +50,9 @@ public class AWSKinesisStream extends Thread implements Sender{
         }
     }
 
-    private static void sendEvent(Event event, KinesisAsyncClient kinesisClient, String streamName) {
-        byte[] bytes = event.toJsonAsBytes();
+    private static void sendEvent(String event, KinesisAsyncClient kinesisClient, String streamName) {
+        Gson gson = new Gson();
+        byte[] bytes = event.getBytes();
         // The bytes could be null if there is an issue with the JSON serialization by
         // the Jackson JSON library.
         if (bytes == null) {
@@ -56,8 +60,10 @@ public class AWSKinesisStream extends Thread implements Sender{
             return;
         }
 
+        Event evt = gson.fromJson( event, Event.class );
+
         LOG.info("Putting event: " + event.toString());
-        PutRecordRequest request = PutRecordRequest.builder().partitionKey(event.getCountry()) // We use the country as
+        PutRecordRequest request = PutRecordRequest.builder().partitionKey(evt.getCountry()) // We use the country as
                                                                                                // the partition key,
                                                                                                // explained in the
                                                                                                // Supplemental
@@ -87,7 +93,7 @@ public class AWSKinesisStream extends Thread implements Sender{
         // Validate that the stream exists and is active
         validateStream(kinesisClient, this.streamName);
 
-        List<Event> events = Utils.generateEvents(1);
+        List<String> events = Utils.generateEvents(1);
 
         sendEvent(events.get(0),kinesisClient,this.streamName);
         

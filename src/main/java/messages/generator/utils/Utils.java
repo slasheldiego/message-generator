@@ -10,6 +10,11 @@ import java.util.concurrent.ThreadLocalRandom;
 import java.util.UUID;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.gson.Gson;
+import com.google.gson.JsonArray;
+import com.google.gson.JsonElement;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
 
 import messages.generator.entities.Event;
 
@@ -19,8 +24,8 @@ public class Utils{
 
     }
 
-    public static List<Event> generateEvents(int lenght) {
-        List<Event> events = new ArrayList<Event>();
+    public static List<String> generateEvents(int lenght) {
+        List<String> events = new ArrayList<String>();
 
         List<String> countries = new ArrayList<String>(Arrays.asList("PE", "CO", "CL", "AR"));
         List<String> descriptions = new ArrayList<String>(Arrays.asList("Tech", "Food", "House", "Clothes"));
@@ -32,8 +37,15 @@ public class Utils{
             double unitprice = ThreadLocalRandom.current().nextDouble(1, 100 + 1);
             Long customerId = ThreadLocalRandom.current().nextLong(1000, 11000 + 1);
 
-            events.add(new Event(id, new Date(System.currentTimeMillis()), quantity, unitprice, customerId,
-                    countries.get(rand.nextInt(4)), descriptions.get(rand.nextInt(4))));
+            // Serialization
+            Event event = new Event(id, new Date(System.currentTimeMillis()), quantity, unitprice, customerId,
+            countries.get(rand.nextInt(4)), descriptions.get(rand.nextInt(4)));
+            
+            Gson gson = new Gson();
+            String jsonEvent = gson.toJson(event);
+
+            events.add(jsonEvent);
+            
         }
 
         return events;

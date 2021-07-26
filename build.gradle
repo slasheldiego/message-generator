@@ -42,6 +42,7 @@ dependencies {
     implementation 'software.amazon.kinesis:amazon-kinesis-client:2.2.9'
     implementation 'org.apache.kafka:kafka_2.12:2.2.1'
     implementation 'org.apache.kafka:kafka-clients:2.2.1'
+    implementation group: 'commons-cli', name: 'commons-cli', version: '1.4'
 }
 
 mainClassName = 'messages.generator.App'

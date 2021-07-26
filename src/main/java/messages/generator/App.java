@@ -3,6 +3,7 @@
  */
 package messages.generator;
 
+import org.apache.commons.cli.*;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
@@ -35,6 +36,35 @@ public class App {
 
     public static void main(String[] args) throws InterruptedException {
 
+        Options options = new Options();
+
+        Option kafka_bootstrap = new Option("kbt", "kafka-bootstrap", true, "kafka-bootstrap");
+        kafka_bootstrap.setRequired(false);
+        options.addOption(kafka_bootstrap);
+
+        Option kafka_topic = new Option("ktp", "kafka-topic", true, "kafka-topic");
+        kafka_topic.setRequired(false);
+        options.addOption(kafka_topic);
+
+        CommandLineParser parser = new DefaultParser();
+        HelpFormatter formatter = new HelpFormatter();
+        CommandLine cmd = null;
+
+        try {
+            cmd = parser.parse(options, args);
+        } catch (ParseException e) {
+            System.out.println(e.getMessage());
+            formatter.printHelp("utility-name", options);
+
+            System.exit(1);
+        }
+
+        String kafka_bootstrap_str = cmd.getOptionValue("kafka-bootstrap");
+        String kafka_topic_str = cmd.getOptionValue("kafka-topic");
+
+        System.out.println(kafka_bootstrap_str);
+        System.out.println(kafka_topic_str);
+        
         App app = new App();
         System.out.println(app.getGreeting());
         int num = 4;
@@ -91,21 +121,19 @@ public class App {
         }*/
         System.out.println("Iniciamos envio de eventos a Kafka ...");
         runProducer();
-
     }
 
     static void runProducer() {
 		Producer<Long, String> producer = ProducerCreator.createProducer();
-        Utils utils = new Utils();
 
-        List<Event> events = utils.generateEvents(10);
+        List<String> events = Utils.generateEvents(10);
 
-        for(Event event: events){
+        for(String event: events){
             final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
-            event.getId() + "|" + event.getCountry() + "|" + event.getDate());
+            event);
             try {
                 RecordMetadata metadata = producer.send(record).get();
-                System.out.println("Record sent with key " + event.getId() + "|" + event.getCountry() + "|" + event.getDate() + " to partition " + metadata.partition()
+                System.out.println("Record sent with key " + event + " to partition " + metadata.partition()
                         + " with offset " + metadata.offset());
             } catch (ExecutionException e) {
                 System.out.println("Error in sending record");

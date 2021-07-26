@@ -19,7 +19,6 @@ import messages.generator.utils.Utils;
 
 public class AWSSNSSender extends Thread implements Sender{
 
-    private Utils utils = new Utils();
     private String arn = "";
     private InstanceProfileCredentialsProvider credentials =
                 InstanceProfileCredentialsProvider.createAsyncRefreshingProvider(true);
@@ -36,7 +35,7 @@ public class AWSSNSSender extends Thread implements Sender{
         .region(Region.US_EAST_1)
         .build();
 
-        List<String> list = utils.list2JsonList(utils.generateEvents(5));
+        List<String> list = Utils.generateEvents(5);
 
         for (String event: list){
             postEventSNS(snsClient,event,arn);
