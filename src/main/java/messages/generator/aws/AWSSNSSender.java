@@ -15,6 +15,7 @@ import com.amazonaws.auth.InstanceProfileCredentialsProvider;
 
 import messages.generator.interfaces.Sender;
 import messages.generator.utils.Utils;
+import messages.generator.entities.Event;
 
 
 public class AWSSNSSender extends Thread implements Sender{
@@ -35,10 +36,10 @@ public class AWSSNSSender extends Thread implements Sender{
         .region(Region.US_EAST_1)
         .build();
 
-        List<String> list = Utils.generateEvents(5);
+        List<Event> list = Utils.generateEvents(5);
 
-        for (String event: list){
-            postEventSNS(snsClient,event,arn);
+        for (Event event: list){
+            postEventSNS(snsClient,event.toString(),arn);
         }
     }
 

@@ -92,9 +92,9 @@ public class AWSKinesisStream extends Thread implements Sender{
         // Validate that the stream exists and is active
         validateStream(kinesisClient, this.streamName);
 
-        List<String> events = Utils.generateEvents(1);
+        List<Event> events = Utils.generateEvents(1);
 
-        sendEvent(events.get(0),kinesisClient,this.streamName);
+        sendEvent(events.get(0).toString(),kinesisClient,this.streamName);
         
     }
     

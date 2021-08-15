@@ -34,19 +34,19 @@ public class AzureEventHubSender extends Thread implements Sender{
         EventHubProducerClient producer = new EventHubClientBuilder().transportType(AmqpTransportType.AMQP_WEB_SOCKETS)
                 .connectionString(connectionString, eventHubName).buildProducerClient();
 
-        List<String> list = Utils.generateEvents(10);
+        List<Event> list = Utils.generateEvents(10);
 
         postEventEHubBatch(producer, list);
         
     }
 
-    public void postEventEHubBatch(EventHubProducerClient producer, List<String> messages) {
+    public void postEventEHubBatch(EventHubProducerClient producer, List<Event> messages) {
         // prepare a batch of events to send to the event hub
         EventDataBatch batch = producer.createBatch();
 
-        for (String eventJson : messages) {
+        for (Event eventJson : messages) {
 
-            batch.tryAdd(new EventData(eventJson));
+            batch.tryAdd(new EventData(eventJson.toString()));
 
         }
 
