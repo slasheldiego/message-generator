@@ -7,6 +7,8 @@ import org.apache.commons.cli.*;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 
+import com.amazonaws.services.schemaregistry.serializers.avro.AWSKafkaAvroSerializer;
+
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
@@ -124,12 +126,12 @@ public class App {
     }
 
     static void runProducer() {
-		Producer<Long, String> producer = ProducerCreator.createProducer();
+		Producer<String, Event> producer = ProducerCreator.createProducer();
 
-        List<String> events = Utils.generateEvents(10);
+        List<Event> events = Utils.generateEvents(10);
 
-        for(String event: events){
-            final ProducerRecord<Long, String> record = new ProducerRecord<Long, String>(IKafkaConstants.TOPIC_NAME,
+        for(Event event: events){
+            final ProducerRecord<String, Event> record = new ProducerRecord<String, Event>(IKafkaConstants.TOPIC_NAME,
             event);
             try {
                 RecordMetadata metadata = producer.send(record).get();

@@ -15,9 +15,10 @@ import org.apache.kafka.clients.CommonClientConfigs;
 import org.apache.kafka.common.config.SslConfigs;
 
 import messages.generator.interfaces.IKafkaConstants;
+import messages.generator.entities.Event;
 
 public class ProducerCreator {
-    public static Producer<Long, String> createProducer() {
+    public static Producer<String, Event> createProducer() {
         Properties props = new Properties();
         props.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, IKafkaConstants.KAFKA_BROKERS);
         props.put(ProducerConfig.CLIENT_ID_CONFIG, IKafkaConstants.CLIENT_ID);

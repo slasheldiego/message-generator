@@ -24,8 +24,8 @@ public class Utils{
 
     }
 
-    public static List<String> generateEvents(int lenght) {
-        List<String> events = new ArrayList<String>();
+    public static List<Event> generateEvents(int lenght) {
+        List<Event> events = new ArrayList<Event>();
 
         List<String> countries = new ArrayList<String>(Arrays.asList("PE", "CO", "CL", "AR"));
         List<String> descriptions = new ArrayList<String>(Arrays.asList("Tech", "Food", "House", "Clothes"));
@@ -41,10 +41,10 @@ public class Utils{
             Event event = new Event(id, new Date(System.currentTimeMillis()), quantity, unitprice, customerId,
             countries.get(rand.nextInt(4)), descriptions.get(rand.nextInt(4)));
             
-            Gson gson = new Gson();
-            String jsonEvent = gson.toJson(event);
+            //Gson gson = new Gson();
+            //String jsonEvent = gson.toJson(event);
 
-            events.add(jsonEvent);
+            events.add(event);
             
         }
 
