@@ -28,7 +28,7 @@ public class ProducerCreator {
         props.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, AWSKafkaAvroSerializer.class.getName());
         //props.put(ProducerConfig.PARTITIONER_CLASS_CONFIG, CustomPartitioner.class.getName());
         props.put(AWSSchemaRegistryConstants.AWS_REGION, "us-east-1");
-        props.put(AWSSchemaRegistryConstants.AVRO_RECORD_TYPE, AvroRecordType.SPECIFIC_RECORD.getName());
+        props.put(AWSSchemaRegistryConstants.AVRO_RECORD_TYPE, AvroRecordType.GENERIC_RECORD.getName());
         props.put(AWSSchemaRegistryConstants.SCHEMA_AUTO_REGISTRATION_SETTING, "true");
         props.put(AWSSchemaRegistryConstants.REGISTRY_NAME, "registry_name");
         props.put(AWSSchemaRegistryConstants.SCHEMA_NAME, "schema_name");
