@@ -1,7 +1,7 @@
 package messages.generator.interfaces;
 
 public interface IKafkaConstants {
-    public static String KAFKA_BROKERS = "b-1.amskuse1edlbdev002.mfnq7t.c17.kafka.us-east-1.amazonaws.com:9094,b-2.amskuse1edlbdev002.mfnq7t.c17.kafka.us-east-1.amazonaws.com:9094";
+    public static String KAFKA_BROKERS = "b-2.msakuse1edlbdev001.mtldab.c4.kafka.us-east-1.amazonaws.com:9094,b-1.msakuse1edlbdev001.mtldab.c4.kafka.us-east-1.amazonaws.com:9094";
 
     public static Integer MESSAGE_COUNT=1000;
 
